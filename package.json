@@ -1,0 +1,17 @@
+{
+  "name": "emscalc",
+  "version": "1.4.0",
+  "description": "Module for simple calc and training",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.test.js",
+    "prepublishOnly": "npm run test"
+  },
+  "keywords": ["calc", "sum", "multiplication", "division", "sub"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eltonsantos/emscalc.git"
+  },
+  "author": "Elton Santos",
+  "license": "MIT"
+}
